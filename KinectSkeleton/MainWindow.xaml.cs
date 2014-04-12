@@ -17,6 +17,7 @@ namespace KinectSkeleton
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
+    /// Initial commit for gitHub KinectSkeleton repository
     /// </summary>
     public partial class MainWindow : Window
     {
