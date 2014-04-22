@@ -1,8 +1,12 @@
 ﻿<Window x:Class="KinectSkeleton.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="720" Width="1280" Loaded="Window_Loaded" Closed="Window_Closed" Closing="Window_Closing">
+    <Grid Width="1280" Height="720" Margin="0,-6,-8,-25">
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="640" Margin="-5,116,0,0"/>
+        <Image x:Name="image2" HorizontalAlignment="Right" Height="480" VerticalAlignment="Top" Width="640" Margin="0,116,0,0"/>        
+        <StatusBar HorizontalAlignment="Left" Name ="statusBar" Height="111" VerticalAlignment="Top" Width="1280">
+            <TextBlock Name="statusBarText"/>
+        </StatusBar>
     </Grid>
 </Window>
